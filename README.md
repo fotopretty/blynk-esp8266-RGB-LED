@@ -1,7 +1,6 @@
 # blynk-esp8266-RGB-LED
-https://www.arduino.cc/
-https://github.com/esp8266/Arduino
-http://www.blynk.cc/
+https://github.com/fotopretty/ESP8266wifi
+https://github.com/fotopretty/blynk-library
 
 I found Blynk somewhere in my facebook feeds and it catches my curiosity.
 
