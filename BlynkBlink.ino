@@ -47,14 +47,8 @@
 
 #define BLYNK_PRINT Serial // Enables Serial Monitor
 #include <SPI.h>
-//#include <Ethernet.h>
 #include <BlynkSimpleEsp8266.h> // This part is for Ethernet stuff
 #include <ESP8266WiFi.h>
-//#include <WiFiConnector.h>
-
-
-//#define WIFI_SSID        "arduino"
-//#define WIFI_PASSPHARSE  "canon50d"
 
 //WiFiConnector wifi = WiFiConnector(WIFI_SSID, WIFI_PASSPHARSE);
 
@@ -74,7 +68,6 @@ void setup()
 void loop()
 {
   Blynk.run(); // All the Blynk Magic happens here...
- //wifi.loop();
   // You can inject your own code or combine it with other sketches.
   // Check other examples on how to communicate with Blynk. Remember
   // to avoid delay() function!
